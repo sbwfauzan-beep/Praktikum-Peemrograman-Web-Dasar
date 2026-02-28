@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Perpustakaan Digital</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif, poppin;
+        }
+
+        section {
+    min-height: 100vh;
+    padding: 80px 20px;
+}
+.judul-home {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.deskripsi-home {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+        #home {
+    background-image: url("https://i.pinimg.com/1200x/b3/7e/89/b37e895b19f6d12fdbe0ee6ad65692ae.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+        #katalog {
+            
+            background-color: #f5f5f5;
+        }
+
+        #about {
+            
+            background-image: url(https://i.pinimg.com/1200x/ee/86/6f/ee866f77cb2d10c4957fc003303ab7a2.jpg);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+    
+            
+        }
+
+        #login {
+            background-image: url(https://i.pinimg.com/1200x/c4/21/ff/c421ff0fa2d163b0464b91c131369d2a.jpg);
+            color: #eeeeee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            
+        }
+
+        footer {
+    background-color: #312d2d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+        .buku { 
+    color: #eeeeee;
+    height: 360px;
+    padding: 25px;
+}
+            .buku-filsafat {
+    background-image: url("https://i.pinimg.com/736x/e4/73/31/e473315a274e85b956e7b02e76d8f09a.jpg");
+}
+
+.buku-sejarah {
+    background-image: url("https://i.pinimg.com/736x/90/03/56/900356e7d4b2e96f22eb94afcd014e76.jpg");
+}
+
+.buku-fiksi {
+    background-image: url("https://i.pinimg.com/1200x/0c/cf/63/0ccf63b7d680ab1ba18a1cf5bf36cd6a.jpg");
+}
+#about h2 {
+    font-size: 48px;
+}
+
+#about p {
+    font-size: 18px;
+}
+    </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">Perpus Digital</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#katalog">Katalog Buku</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+    <div class="container text-center">
+        <h1 class="judul-home">Perpustakaan Digital</h1>
+<p class="deskripsi-home">
+    Selamat datang di Perpustakaan Digital Kami<br>
+    Website ini menyediakan Banyak informasi Dan Katalog Buku Yang Dapat Anda Gunakan
+    Enjoying With This Web.
+</p>
+    </div>
+    <footer>NIM : 124250171</footer>
+</section>
+
+<!-- KATALOG -->
+<section id="katalog">
+    <div class="container">
+        <h2 class="text-center mb-4">Katalog Buku</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+                <div class="buku buku-filsafat">
+                    <span class="badge bg-warning text-dark mb-2">Kategori</span>
+                    <h5>Filsafat</h5>
+                    <p>Karya yang menantang nalar untuk mendalami hakikat keberadaan, logika, dan nilai-nilai kehidupan melalui pemikiran kritis yang mendalam.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="buku buku-sejarah">
+                    <span class="badge bg-warning text-dark mb-2">Kategori</span>
+                    <h5>Sejarah</h5>
+                    <p>Rekaman peristiwa masa lalu yang disusun berdasarkan fakta dan data untuk memahami perjalanan peradaban manusia serta pelajaran yang ditinggalkannya.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="buku buku-fiksi">
+                    <span class="badge bg-warning text-dark mb-2">Kategori</span>
+                    <h5>Fiksi</h5>
+                    <p>Narasi kreatif hasil imajinasi penulis yang membangun dunia, karakter, dan konflik untuk menyampaikan pesan moral maupun hiburan bagi pembaca.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="container">
+        <h2 class="text-center">Tentang Kami</h2>
+        <p class="text-center">
+            Website perpustakaan dengan tema filsafat sejarah dan  
+            fiksi terlengkap.<br>  
+            Jika ingin menjadi stoikis bacalah buku di web kami
+        </p>
+    </div>
+</section>
+
+<!-- LOGIN -->
+<section id="login">
+    <div class="container">
+        <h2 class="text-center mb-4">Login</h2>
+
+        <form method="POST" action="#">
+            <div class="mb-3">
+                <label>email</label>
+                <input type="text" name="email" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label>Password</label>
+                <input type="password" name="password" class="form-control">
+            </div>
+
+            <input type="submit" value="Login" class="btn btn-primary">
+            <input type="reset" value="Reset" class="btn btn-secondary">
+        </form>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
